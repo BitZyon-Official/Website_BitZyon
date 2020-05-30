@@ -3,7 +3,7 @@ include "controls/funcao.php";
 
 if(strlen($_POST['nome']))
 {
-    if(sendMail($_POST['email'],'fcbetting.supports@fanaticoscriptos.com', $_POST['mensagem'], 'Formulário de contato'))
+    if(sendMail($_POST['email'],'contact@bitzyon.com', $_POST['mensagem'], 'Formulário de contato'))
     {
         echo "Sua Mensagem foi enviada com sucesso!";
     }
@@ -758,7 +758,7 @@ tokenização de um ativo digital">
       <div class="col-md-2 col-sm-6 col-12">
         <h3>Parceiros</h3>
         <ul class="footer-list">
-          <li><a href="#"> ...</a></li>
+          <li><a href="https://mchain.network" target="_blank">Mchain (MAR)</a> <img src="img/parceiros/p_mchain.png" style="width:20px;"></li>
           <li><a href="#"> ...</a></li>
           <li><a href="#"> ...</a></li>
           <li><a href="#"> ...</a></li>
